@@ -3,21 +3,22 @@ pageLayout: home
 externalLinkIcon: false
 config:
   -
-    type: hero
+    type: doc-hero
     full: true
     forceDark: true
     effect: lightning
     hero:
-      name: Theme Plume
-      tagline: VuePress Next Theme
-      text: 一个简约的，功能丰富的 vuepress 文档&博客 主题
+      name: Hi!
+      tagline: Wow! It's Minecraft!
+      text: Wunanc
+      image: https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAERfYppqww4uAYebnNCMaKtKBEKmjtGlwACEycAAhk0WVWMHLpOgLyYZToE.png
       actions:
         -
           theme: brand
-          text: 博客
-          link: /blog/
+          text: 来看看都有什么好东西 →
+          link: /overview/
         -
           theme: alt
-          text: Github →
-          link: https://github.com/pengzhanbo/vuepress-theme-plume
+          text: Github
+          link: https://github.com/wunanc
 ---

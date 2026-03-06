@@ -21,15 +21,26 @@ export default defineUserConfig({
 
   head: [
     // 配置站点图标
-    ['link', { rel: 'icon', type: 'image/png', href: 'https://theme-plume.vuejs.press/favicon-32x32.png' }],
+    ['link', { rel: 'icon', type: 'image/png', href: 'https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAERfYppqww4uAYebnNCMaKtKBEKmjtGlwACEycAAhk0WVWMHLpOgLyYZToE.png' }],
   ],
 
   bundler: viteBundler(),
   shouldPrefetch: false, // 站点较大，页面数量较多时，不建议启用
 
   theme: plumeTheme({
+    copyright: { 
+      license: {
+        name: 'CC-BY-4.0', // 许可证名称
+        url: 'https://creativecommons.org/licenses/by/4.0/' // 许可证地址
+      },
+      author: {
+        name: 'wunanc', // 版权所有者名称
+        url: 'https://github.com/wunanc' // 版权所有者地址
+      },
+      creation: 'original' // 创作方式
+    },
     /* 添加您的部署域名, 有助于 SEO, 生成 sitemap */
-    // hostname: 'https://your_site_url',
+    hostname: 'https://mc.wunanc.top',
 
     /* 文档仓库配置，用于 editLink */
     // docsRepo: '',
@@ -52,11 +63,11 @@ export default defineUserConfig({
      * 为 markdown 文件自动添加 frontmatter 配置
      * @see https://theme-plume.vuejs.press/config/theme/#autofrontmatter
      */
-    // autoFrontmatter: {
-    //   permalink: true,  // 是否生成永久链接
-    //   createTime: true, // 是否生成创建时间
-    //   title: true,      // 是否生成标题
-    // },
+    autoFrontmatter: {
+      permalink: true,  // 是否生成永久链接
+      createTime: true, // 是否生成创建时间
+      // title: true,      // 是否生成标题
+    },
 
     /* 本地搜索, 默认启用 */
     search: { provider: 'local' },
