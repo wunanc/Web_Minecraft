@@ -1,0 +1,11 @@
+.theme-plume.vp-layout.footer-no-border {
+  background-image: url('https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAERgWlprA23pN2CI5-TVT2U8zKTerefQwACIyAAAlIUYFUxEV68q6g94ToE.png');
+  background-size: cover;      /* 使背景图覆盖整个页面，可能会裁剪部分图片 */
+  background-repeat: no-repeat; /* 禁止重复平铺 */
+  background-position: center;  /* 图片居中显示 */
+  background-attachment: fixed; /* 背景固定，不随滚动条滚动（可选） */
+}
+
+.mini-search.mini-search-button {
+  background: transparent;
+}

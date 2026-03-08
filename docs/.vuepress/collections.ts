@@ -44,6 +44,14 @@ const blog = defineCollection({
   //   pagination: 15, // 每页显示文章数量
 })
 
+const news = defineCollection({
+  type: 'post',
+  dir: 'news',
+  title: 'News',
+  link: '/news/',
+  categories: false,
+})
+
 const demoDoc = defineCollection({
   // doc 类型，该类型带有侧边栏
   type: 'doc',
@@ -68,5 +76,6 @@ const demoDoc = defineCollection({
  */
 export default defineCollections([
   blog,
+  news,
   demoDoc,
 ])
