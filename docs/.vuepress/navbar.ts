@@ -16,11 +16,29 @@ export default defineNavbarConfig([
     link: '/news/' 
   },
   {
-    text: '笔记',
+    text: '⭐原创插件',
     items: [
       { 
-        text: '示例', 
-        link: '/demo/README.md' 
+        text: '暂无', 
+        link: '/' 
+      }
+    ]
+  },
+  {
+    text: '🧩附属插件',
+    items: [
+      { 
+        text: '【领地飞行】DomFly', 
+        link: '/domfly/'
+      }
+    ]
+  },
+  {
+    text: '🔧二创插件',
+    items: [
+      { 
+        text: '暂无', 
+        link: '/' 
       }
     ]
   },

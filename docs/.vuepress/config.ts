@@ -43,9 +43,9 @@ export default defineUserConfig({
     hostname: 'https://mc.wunanc.top',
 
     /* 文档仓库配置，用于 editLink */
-    // docsRepo: '',
-    // docsDir: 'docs',
-    // docsBranch: '',
+    docsRepo: 'https://github.com/wunanc/Web_Minecraft',
+    docsDir: 'docs',
+    docsBranch: 'main',
 
     /* 页内信息 */
     // editLink: true,

@@ -69,6 +69,22 @@ const demoDoc = defineCollection({
   // sidebar: 'auto',
 })
 
+const domflyDoc = defineCollection({
+  type: 'doc',
+  dir: 'domfly/doc',
+  linkPrefix: '/domfly/doc',
+  title: 'DomFly',
+  sidebar: 'auto',
+})
+
+const domflyApiDoc = defineCollection({
+  type: 'doc',
+  dir: 'domfly/api',
+  linkPrefix: '/domfly/api',
+  title: 'DomFlyApi',
+  sidebar: 'auto',
+})
+
 /**
  * 导出所有的 collections
  * (blog 为博客示例，如果不需要博客功能，请删除)
@@ -78,4 +94,6 @@ export default defineCollections([
   blog,
   news,
   demoDoc,
+  domflyDoc,
+  domflyApiDoc,
 ])
