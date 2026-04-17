@@ -24,7 +24,7 @@ export default defineThemeConfig({
 
   social: [
     { icon: 'github', link: 'https://github.com/wunanc' },
-    { icon: 'qq', link: 'https://qm.qq.com/q/4UadW3LsqY' },
+    { icon: 'qq', link: 'https://qm.qq.com/q/bMuLKs8D9S' },
     { icon: 'bilibili', link: 'https://space.bilibili.com/3461562578766467' },
   ],
   navbarSocialInclude: ['github','qq','bilibili'], // 允许显示在导航栏的 social 社交链接
@@ -43,8 +43,8 @@ export default defineThemeConfig({
 
   /* 站点页脚 */
   footer: {
-    message: '<a target="_blank" href="/friends/">友情链接</a>',
-    copyright: 'Copyright © 2026-present Wunanc', // 版权信息
+    message: '本网站与 MOJANG 或 MICROSOFT 无任何关联 <a target="_blank" href="/friends/">友情链接</a>',
+    copyright: 'Copyright © 2026-present wunanc.All rights reserved. | <a target="_blank" href="https://beian.miit.gov.cn/">粤ICP备2026043665号-1</a>', // 版权信息
   },
 
   /**
