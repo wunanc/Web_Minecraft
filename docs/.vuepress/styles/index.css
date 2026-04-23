@@ -9,3 +9,11 @@
 .mini-search.mini-search-button {
   background: transparent;
 }
+
+.beianlogo {
+    width: 14px;
+    margin-right: 5px;
+    /* 若图片元素是行内块，建议保留默认对齐方式 */
+    display: inline-block;
+    vertical-align: middle;
+}

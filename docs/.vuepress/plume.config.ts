@@ -44,7 +44,7 @@ export default defineThemeConfig({
   /* 站点页脚 */
   footer: {
     message: '本网站与 MOJANG 或 MICROSOFT 无任何关联 <a target="_blank" href="/friends/">友情链接</a>',
-    copyright: 'Copyright © 2026-present wunanc.All rights reserved. | <a target="_blank" href="https://beian.miit.gov.cn/">粤ICP备2026043665号-1</a>', // 版权信息
+    copyright: 'Copyright © 2026-present wunanc.All rights reserved. | <a target="_blank" href="https://beian.miit.gov.cn/">粤ICP备2026043665号-1</a>  <img class="beianlogo" src="/BeiAnLogo.png"> <a href="https://beian.mps.gov.cn/#/query/webSearch?code=44060702000602" rel="noreferrer" target="_blank">粤公网安备44060702000602号</a>', // 版权信息
   },
 
   /**
