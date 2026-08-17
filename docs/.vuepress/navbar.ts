@@ -19,8 +19,8 @@ export default defineNavbarConfig([
     text: '⭐原创插件',
     items: [
       { 
-        text: '暂无', 
-        link: '/' 
+        text: '【礼包码】GiftCode',
+        link: '/giftcode/'
       }
     ]
   },
@@ -30,7 +30,7 @@ export default defineNavbarConfig([
       { 
         text: '【领地飞行】DomFly', 
         link: '/domfly/'
-      }
+      },
     ]
   },
   {

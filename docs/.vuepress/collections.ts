@@ -85,6 +85,22 @@ const domflyApiDoc = defineCollection({
   sidebar: 'auto',
 })
 
+const giftcodeDoc = defineCollection({
+  type: 'doc',
+  dir: 'giftcode/doc',
+  linkPrefix: '/giftcode/doc',
+  title: 'GiftCode',
+  sidebar: 'auto',
+})
+
+const giftcodeApiDoc = defineCollection({
+  type: 'doc',
+  dir: 'giftcode/api',
+  linkPrefix: '/giftcode/api',
+  title: 'GiftCodeApi',
+  sidebar: 'auto',
+})
+
 /**
  * 导出所有的 collections
  * (blog 为博客示例，如果不需要博客功能，请删除)
@@ -96,4 +112,6 @@ export default defineCollections([
   demoDoc,
   domflyDoc,
   domflyApiDoc,
+  giftcodeDoc,
+  giftcodeApiDoc,
 ])
